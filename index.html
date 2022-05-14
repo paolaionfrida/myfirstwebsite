@@ -1,81 +1,83 @@
 <!DOCTYPE html>
 <html lang="it">
+
 <head>
-  <!-- Theme Made By www.w3schools.com - No Copyright -->
-  <title>Bootstrap Theme The Band</title>
+  
+  <title>BO.Music.</title>
   <meta charset="utf-8">
+  <meta name="google-site-verification" content="4aqS-9RAZ3AhXzKHl1xFiUe65e7g-b-L8KUdeawqf0w" />
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  
-  <!--<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css"> -->
-
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
-<script src="https://kit.fontawesome.com/3530a56f6c.js" crossorigin="anonymous"></script>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Open+Sans:wght@400;600&display=swap"
+    rel="stylesheet">
+  <script src="https://kit.fontawesome.com/3530a56f6c.js" crossorigin="anonymous"></script>
   <link href="css/style.css" rel="stylesheet" type="text/css">
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-  
+
 </head>
+
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="50">
 
-<nav class="navbar navbar-default navbar-fixed-top">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      <a class="navbar-brand" href="#myPage">
-      <img alt="logo" src="images/logo2.png" class="img-fluid" style="width:65%"/></a>
+  <!--- Menu di navigazione -->
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="#myPage">
+          <img alt="logo" src="images/logo2.png" class="img-fluid" style="width: 65%;" />
+        </a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav navbar-right">
+          <li><a href="index.html" class="active">HOME</a></li>
+          <li><a href="#istituzioni">ISTITUZIONI</a></li>
+          <li><a href="#eventi">EVENTI</a></li>
+          <li><a href="#itinerari">ITINERARI</a></li>
+          <li><a href="#contatti">CONTATTI</a></li>
+          <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
+        </ul>
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-      <ul class="nav navbar-nav navbar-right">
-                          <li><a href="index.html" class="active">HOME</a></li>
-                          <li><a href="#istituzioni_musicali" >ISTITUZIONI</a></li>
-                          <li><a href="#eventi">EVENTI</a></li>
-                          <li><a href="#tour_guidato">ITINERARI</a></li>
-                          <li><a href="#contatti">CONTATTI</a></li>
-                          <!--<li><a href="#about">ABOUT</a></li></li> -->
-        <li><a href="#"><span class="glyphicon glyphicon-search"></span></a></li>
-      </ul>
-    </div>
-  </div>
-</nav>
+  </nav>
 
-<div id="myCarousel" class="carousel slide" data-ride="carousel">
+  <!-- Slideshow -->
+  <div id="myCarousel" class="carousel slide" data-ride="carousel">
     <!-- Indicators -->
     <ol class="carousel-indicators">
       <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
       <li data-target="#myCarousel" data-slide-to="1"></li>
       <li data-target="#myCarousel" data-slide-to="2"></li>
     </ol>
-
     <!-- Wrapper for slides -->
     <div class="carousel-inner" role="listbox">
       <div class="item active">
         <img src="images/carousel1.jpg" alt="Museo internazionale e biblioteca della Musica" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>MUSEO INTERNAZIONALE E BIBLIOTECA DELLA MUSICA.</h3>
-          <p>A Bologna, ti aspettano gli archivi e le collezioni musicali.</p>
-        </div>      
+          <h3 class="grey">MUSEO INTERNAZIONALE E BIBLIOTECA DELLA MUSICA</h3>
+          <p class="grey">A Bologna, ti aspettano gli archivi e le collezioni musicali</p>
+        </div>
       </div>
 
       <div class="item">
         <img src="images/carousel2.jpg" alt="Chitarra" width="1200" height="700">
         <div class="carousel-caption">
-          <h3>FESTIVAL E RASSEGNE MUSICALI</h3>
-          <p>A Bologna, troverai una vasta offerta di proposte musicali per tutti i gusti.</p>
-        </div>      
+          <h3 class="grey">FESTIVAL E RASSEGNE MUSICALI</h3>
+          <p class="grey">A Bologna, troverai una vasta offerta di proposte musicali per tutti i gusti.</p>
+        </div>
       </div>
-    
+
       <div class="item">
         <img src="images/carousel3.jpg" alt="Fonoprint" width="1200" height="700">
         <div class="carousel-caption">
           <h3>MUSEO DEL SUONO E DELLA CANZONE</h3>
           <p>A Bologna, lo studio di registrazione più famoso, eccellenza nella produzione del suono.</p>
-        </div>      
+        </div>
       </div>
     </div>
 
@@ -88,345 +90,250 @@
       <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
       <span class="sr-only">Next</span>
     </a>
-</div>
-
-<!-- Container (ISTITUZIONI Section) -->
-<div id="band" class="container text-center">
-  <h3>ISTITUZIONI</h3>
-  <p><strong>Bologna, Città Creativa della Musica, riconosciuta dall'UNESCO nel 2006, prima in Italia.</strong></p>
-  <p>Bologna non si contraddistingue solo per il ricco patrimonio culturale e gastronomico, ma anche per le numerose istituzioni musicali che arricchiscono il territorio. Tra queste, rivestono particolare importanza il Teatro Comunale, il Museo internazionale e biblioteca della musica, il Conservatorio, il Dipartimento di Musica e Spettacolo dell'Università di Bologna, l'Accademia Filarmonica e molti altri. 
-  Visitando il sito, potrete divertirvi a comporre il vostro itinerario personalizzato, attraverso una comoda mappa, completamente navigabile.</p>
-  <br>
-  <div class="row">
-    <div class="col-sm-4">
-      <p class="text-center"><strong>SALA DELLA MUSICA</strong></p><br>
-      <a href="#demo" data-toggle="collapse">
-        <img src="images/sala_musica.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
-      </a>
-      <div id="demo" class="collapse">
-        <p>Il primo percorso espositivo permanente in Italia dedicato alla storia della popular music di una città. La Sala della Musica è promossa dal Comune di Bologna, nell’ambito delle azioni di Bologna Città della Musica per l'UNESCO.</p>
-        <p>Biblioteca Salaborsa</p>
-        <p>Piazza del Nettuno, 3 Bologna</p> 
-      </div> 
-    </div>
-    <div class="col-sm-4">
-      <p class="text-center"><strong>CAMPANE DELLA BASILICA DI SAN PETRONIO</strong></p><br>
-      <a href="#demo2" data-toggle="collapse">
-        <img src="images/campane.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
-      </a>
-      <div id="demo2" class="collapse">
-        <p>L'arte campanaria della città è caratterizzata dal tipico suono “doppio” alla bolognese, costituito classicamente da quattro voci (quarto); la successione dei suoni delle singole campane è concepita come scala discendente.</p>
-        <p>Basilica di San Petronio</p>
-        <p>Piazza Galvani, 5 Bologna</p>
-      </div>
-    </div>
-    <div class="col-sm-4">
-      <p class="text-center"><strong>TEATRO COMUNALE</strong></p><br>
-      <a href="#demo3" data-toggle="collapse">
-        <img src="images/teatro_comunale.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
-      </a>
-      <div id="demo3" class="collapse">
-        <p>Dal 1763 il Teatro Comunale è diventato famoso per l’alto livello qualitativo dei suoi spettacoli e per la fama degli artisti che arrivano da tutto il mondo. 95 professori d’orchestra e 70 artisti del coro realizzano circa 80 spettacoli lirici e 30 concerti sinfonici, in una stagione.</p>
-        <p>Teatro Comunale di Bologna</p>
-        <p>Largo Respighi, 1 Bologna</p> 
-      </div>
-    </div>
   </div>
-</div>
 
-<!-- Container (EVENTI Section) -->
-<div id="eventi" class="bg-1">
-  <div class="container">
-    <h3 class="text-center">EVENTI</h3>
-    <p class="text-center">Il meglio della musica in città!</p>
-    <ul class="list-group">
-      <li class="list-group-item">Settembre 2022 <span class="label label-danger">Sold Out!</span></li>
-      <li class="list-group-item">Ottobre 2022 <span class="label label-danger">Sold Out!</span></li> 
-      <li class="list-group-item">Novembre 2022 <span class="badge">3</span></li> 
-    </ul>
-    
-    <div class="row text-center">
+
+  <!-- Pagine di contenuto-->
+
+  <!-- Container (ISTITUZIONI Section) -->
+  <div id="istituzioni" class="container text-center">
+    <h3>ISTITUZIONI</h3>
+    <p><strong>Bologna, Città Creativa della Musica, riconosciuta dall'UNESCO nel 2006, prima in Italia.</strong></p>
+    <p>Bologna non si contraddistingue solo per il ricco patrimonio architettonico, culturale e gastronomico, ma anche per le numerose
+      istituzioni musicali che arricchiscono il territorio. Tra queste, rivestono particolare importanza il Teatro
+      Comunale, il Museo internazionale e biblioteca della musica, il Conservatorio, il Dipartimento di Musica e
+      Spettacolo dell'Università di Bologna e l'Accademia Filarmonica.<br />
+      A Bologna si trova, inoltre, lo studio di registrazione Fonoprint in cui sono stati incisi numerosi album di artisti quali, 
+      ad esempio, Zucchero, Vasco Rossi, Gianni Morandi, Lucio Dalla e molti altri. Al suo interno è nato, inoltre, il 
+      <a href="http://www.fonoprint.com/museo-del-suono-e-della-canzone-fonoprint.html" target="_blank">Museo del Suono e della Canzone</a>.
+      Visitando il sito, potrete divertirvi a comporre il vostro <a href="#itinerari">itinerario personalizzato</a>, attraverso una comoda mappa,
+      completamente navigabile.</p>
+    <br>
+    <div class="row">
       <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="images/violini.jpg" alt="Concerto_violini" width="400" height="300">
-          <p><strong>Concerto di violini</strong></p>
-          <p>27 Novembre 2022</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Acquista</button>
+        <p class="text-center"><strong>SALA DELLA MUSICA</strong></p><br>
+        <a href="#demo" data-toggle="collapse">
+          <img src="images/sala_musica.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        </a>
+        <div id="demo" class="collapse">
+          <p>Il primo percorso espositivo permanente in Italia dedicato alla storia della popular music di una città. La
+            Sala della Musica è promossa dal Comune di Bologna, nell’ambito delle azioni di Bologna Città della Musica
+            per l'UNESCO.</p>
+          <p>Biblioteca Salaborsa</p>
+          <p>Piazza del Nettuno, 3 Bologna</p>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="images/concerto_rock.jpg" alt="Concerto_rockers" width="400" height="300">
-          <p><strong>Concerto Rockers</strong></p>
-          <p>28 Novembre 2022</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Acquista</button>
+        <p class="text-center"><strong>CAMPANE DI SAN PETRONIO</strong></p><br>
+        <a href="#demo2" data-toggle="collapse">
+          <img src="images/campane.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        </a>
+        <div id="demo2" class="collapse">
+          <p>L'arte campanaria della città è caratterizzata dal tipico suono “doppio” alla bolognese, costituito
+            classicamente da quattro voci (quarto); la successione dei suoni delle singole campane è concepita come
+            scala discendente.</p>
+          <p>Basilica di San Petronio</p>
+          <p>Piazza Galvani, 5 Bologna</p>
         </div>
       </div>
       <div class="col-sm-4">
-        <div class="thumbnail">
-          <img src="images/chitarra.jpg" alt="Concerto_chitarra" width="400" height="300">
-          <p><strong>Concerto di chitarra</strong></p>
-          <p>29 Novembre 2022</p>
-          <button class="btn" data-toggle="modal" data-target="#myModal">Acquista</button>
+        <p class="text-center"><strong>TEATRO COMUNALE</strong></p><br>
+        <a href="#demo3" data-toggle="collapse">
+          <img src="images/teatro_comunale.jpg" class="img-circle person" alt="Random Name" width="255" height="255">
+        </a>
+        <div id="demo3" class="collapse">
+          <p>Dal 1763 il Teatro Comunale è diventato famoso per l’alto livello qualitativo dei suoi spettacoli e per la
+            fama degli artisti che arrivano da tutto il mondo. 95 professori d’orchestra e 70 artisti del coro
+            realizzano circa 80 spettacoli lirici e 30 concerti sinfonici, in una stagione.</p>
+          <p>Teatro Comunale di Bologna</p>
+          <p>Largo Respighi, 1 Bologna</p>
         </div>
       </div>
     </div>
   </div>
-  
-  <!-- Modal -->
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
-    
-      <!-- Modal content-->
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">×</button>
-          <h4><span class="glyphicon glyphicon-lock"></span> Tickets</h4>
+
+  <!-- Container (EVENTI Section) -->
+  <div id="eventi" class="bg-1">
+    <div class="container">
+      <h3 class="text-center">EVENTI</h3>
+      <p class="text-center">Il meglio della musica in città!</p>
+      <ul class="list-group">
+        <li class="list-group-item">Settembre 2022 <span class="label label-danger">Sold Out!</span></li>
+        <li class="list-group-item">Ottobre 2022 <span class="label label-danger">Sold Out!</span></li>
+        <li class="list-group-item">Novembre 2022 <span class="badge">3</span></li>
+      </ul>
+
+      <div class="row text-center">
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="images/violini.jpg" alt="Concerto_violini" width="400" height="300">
+            <p><strong>Concerto di violini</strong></p>
+            <p>27 Novembre 2022</p>
+            <button class="btn" data-toggle="modal" data-target="#myModal">Acquista</button>
+          </div>
         </div>
-        <div class="modal-body">
-          <form role="form">
-            <div class="form-group">
-              <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Costo biglietto, 50€ a persona</label>
-              <input type="number" class="form-control" id="psw" placeholder="Quanti biglietti vuoi acquistare?">
-            </div>
-            <div class="form-group">
-              <label for="usrname"><span class="glyphicon glyphicon-user"></span>Invia</label>
-              <input type="text" class="form-control" id="usrname" placeholder="Inserisci mail">
-            </div>
-              <button type="submit" class="btn btn-block">Vai al pagamento 
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="images/concerto_rock.jpg" alt="Concerto_rockers" width="400" height="300">
+            <p><strong>Concerto Rockers</strong></p>
+            <p>28 Novembre 2022</p>
+            <button class="btn" data-toggle="modal" data-target="#myModal">Acquista</button>
+          </div>
+        </div>
+        <div class="col-sm-4">
+          <div class="thumbnail">
+            <img src="images/chitarra.jpg" alt="Concerto_chitarra" width="400" height="300">
+            <p><strong>Concerto di chitarra</strong></p>
+            <p>29 Novembre 2022</p>
+            <button class="btn" data-toggle="modal" data-target="#myModal">Acquista</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal -->
+    <div class="modal fade" id="myModal" role="dialog">
+      <div class="modal-dialog">
+
+        <!-- Modal content-->
+        <div class="modal-content">
+          <div class="modal-header">
+            <button type="button" class="close" data-dismiss="modal">×</button>
+            <h4><span class="glyphicon glyphicon-lock"></span> Biglietti</h4>
+          </div>
+          <div class="modal-body">
+            <form role="form">
+              <div class="form-group">
+                <label for="psw"><span class="glyphicon glyphicon-shopping-cart"></span> Costo del biglietto, 50€ a
+                  persona</label>
+                <input type="number" class="form-control" id="psw" placeholder="Quanti biglietti vuoi acquistare?">
+              </div>
+              <div class="form-group">
+                <label for="usrname"><span class="glyphicon glyphicon-user"></span>Invia</label>
+                <input type="text" class="form-control" id="usrname" placeholder="Inserisci mail">
+              </div>
+              <button type="submit" class="btn btn-block">Vai al pagamento
                 <span class="glyphicon glyphicon-ok"></span>
               </button>
-          </form>
-        </div>
-        <div class="modal-footer">
-          <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
-            <span class="glyphicon glyphicon-remove"></span> Annulla operazione
-          </button>
-          <p>Ti occorre <a href="#">aiuto?</a></p>
-        </div>
-      </div>
-    </div>
-  </div>
-</div>
-
-<!-- Container (ITINERARI Section) -->
-<div id="itinerari" class="container text-center"> 
-   <div class="container">
-  <h3>ITINERARI</h3>
-  <p><strong>Crea il tuo itinerario musicale</strong></p>
-  <p>Esplora il patrimonio musicale di Bologna, dichiarata Città Creativa della Musica dall'UNESCO, nel 2006. </p>
-  <br>
-  <div class="embed-responsive embed-responsive-16by9">
-  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1H-IawQ8Td2PmzBNp3ByuGGOTJS-S5zan&ehbc=2E312F" allow="fullscreen"></iframe>
-
-
-</div>
-
-<!-- Container (Contatti Section) -->
-<!--<div id="contatti" class="bg-1" class="container text-center">
-  <h3 class="text-center">CONTATTI</h3>
-  <p class="text-center"><em>Contattaci per maggiori info!</em></p>
-
-  <div class="row">
-    <div class="col-md-4">
-      <p><span class="glyphicon glyphicon-map-marker"></span>Bologna, Italia</p>
-      <p><span class="glyphicon glyphicon-phone"></span>Telefono: +39 051 0123456</p>
-      <p><span class="glyphicon glyphicon-envelope"></span>Email: bo.music.@mail.com</p>
-    </div>
-    <div class="col-md-8">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Nome" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="E-mail" type="email" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Richiesta" rows="5"></textarea>
-      <br>
-      <div class="row">
-        <div class="col-md-12 form-group">
-          <button class="btn pull-right" type="submit">Invia</button>
-        </div>
-      </div>
-    </div>
-  </div>
-  <br> -->
-  
-
-
-<!-- Container (Contact Section) -->
-<div id="contatti" class="container">
-  <h3 class="text-center">CONTATTI</h3>
-  <p class="text-center"><strong>Contattaci per maggiori info!</strong></p>
-
-  <div class="row">
-    <div class="col-md-4">
-      
-      <p><i class="fa-solid fa-location-dot"></i>  Bologna, Italia</p>
-      <p><i class="fa-solid fa-mobile-button"></i>  Telefono: +00 1515151515</p>
-      <p><i class="fa-solid fa-at"></i></span>  E-mail: BO.Music.@mail.com</p>
-    </div>
-    <div class="col-md-8">
-      <div class="row">
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="name" name="name" placeholder="Il tuo nome" type="text" required>
-        </div>
-        <div class="col-sm-6 form-group">
-          <input class="form-control" id="email" name="email" placeholder="Email" type="Inserisci e-mail" required>
-        </div>
-      </div>
-      <textarea class="form-control" id="comments" name="comments" placeholder="Richiesta" rows="5"></textarea>
-      <br>
-      <div class="row"> 
-            <div class="col-md-6">
-
-          <button class="btn pull-none" type="submit">Invia</button>
-
-        </div>
-      </div>
-    </div>
-  </div>
-  <br>
-
-
-
-
-  <!--<ul class="nav nav-tabs">
-    <li class="active"><a data-toggle="tab" href="#home">Mike</a></li>
-    <li><a data-toggle="tab" href="#menu1">Chandler</a></li>
-    <li><a data-toggle="tab" href="#menu2">Peter</a></li>
-  </ul>
-
-  <div class="tab-content">
-    <div id="home" class="tab-pane fade in active">
-      <h2>Mike Ross, Manager</h2>
-      <p>Man, we've been on the road for some time now. Looking forward to lorem ipsum.</p>
-    </div>
-    <div id="menu1" class="tab-pane fade">
-      <h2>Chandler Bing, Guitarist</h2>
-      <p>Always a pleasure people! Hope you enjoyed it as much as I did. Could I BE.. any more pleased?</p>
-    </div>
-    <div id="menu2" class="tab-pane fade">
-      <h2>Peter Griffin, Bass player</h2>
-      <p>I mean, sometimes I enjoy the show, but other times I enjoy other things.</p>
-    </div>
-  </div>
-</div>-->
-
-<!-- Image of location/map
-<img src="map.jpg" class="img-responsive" style="width:100%"> -->
-
-<!-- Container (ABOUT Section) 
-<div id="about" class="container text-center">
-   <div class="container">
-  <h3>ABOUT</h3>
-  <p><strong>Chi siamo</strong></p>
-  <p>Due parole su di noi. </p>
-  <br>-->
-
-<!-- Footer -->
-<footer>
-     <div class="bg-dark">
-      <div class="container-fluid">
-        <!-- <div class="row" style="align-items:baseline;">
-
-
-          </div> 
-          
-
-          <div class="col"> -->
-
-<!--
-<button type="button" class="btn btn-dark m-auto d-block" data-toggle="modal" data-target="#exampleModal">
-          Credits
-         </button>
-      </div>
-     </div>
-    </div>  
-    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-     <div class="modal-dialog" role="document">
-      <div class="modal-content">
-         <div class="modal-header">
-          <h3 class="modal-title" id="exampleModalLabel">Credits</h3>
-          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-           <span aria-hidden="true">&times;</span>
-          </button>
-         </div>
-         <div class="modal-body">
-          <strong>Sito fatto da Paola Ionfrida</strong><br />
-              <div class="row sub-footer">
-     <div class="container">
-      <div class="col-md-12">
-         
-        
-          
-         </div>
-         <div class="modal-footer">
-          <button type="button" class="btn btn-primary" data-dismiss="modal">Close</button>
-         </div>
-      </div>
-     </div>
-
-
-
-           
-
-
-
+            </form>
           </div>
-         </div>
+          <div class="modal-footer">
+            <button type="submit" class="btn btn-danger btn-default pull-left" data-dismiss="modal">
+              <span class="glyphicon glyphicon-remove"></span> Annulla operazione
+            </button>
+            <p>Ti occorre <a href="#">aiuto?</a></p>
+          </div>
+        </div>
       </div>
-     </div> -->
-     
+    </div>
+  </div>
 
 
-     <p class="text-center">Immagini: Pixabay.com e Licenza Creative Commons</p>
-         <br>
-            <a href="https://www.facebook.com/" class="btn btn-dark btn-sm" target="_blank">
-            <i <i class="fa fa-2x fa-fw fa-facebook text-white" ></i>
-           </a>
-           <a href="https://twitter.com/"  class="btn btn-dark btn-sm" target="_blank">
-           <i class="fa fa-2x fa-fw fa-twitter text-white"></i>
-            </a>
-           <a href="https://www.linkedin.com/in/paola-ionfrida-6b13b7105/" class="btn btn-dark btn-sm"  target="_blank">
-           <i class="fa fa-2x fa-fw fa-linkedin text-white"></i>
-          </a>
+  <!-- Container (ITINERARI Section) -->
+  <div id="itinerari" class="container text-center">
+    <h3>ITINERARI</h3>
+    <p class="text-center"><strong>Crea il tuo itinerario musicale</strong></p>
+    <p class="text-center">Esplora il patrimonio musicale di Bologna, dichiarata Città Creativa della Musica
+      dall'UNESCO, nel 2006, prima in Italia. </p>
+    <br>
+    <div class="embed-responsive embed-responsive-16by9">
+      <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1H-IawQ8Td2PmzBNp3ByuGGOTJS-S5zan&ehbc=2E312F"
+        allow="fullscreen"></iframe>
+    </div>
+  </div>
 
 
-    
+  <!-- Container (CONTATTI Section) -->
+  <div id="contatti" class="bg-1">
+    <div class="container">
+      <h3 class="text-center">CONTATTI</h3>
+      <p class="text-center"><strong>Contattaci per maggiori info!</strong></p>
+      <div class="row">
+        <div class="col-md-4">
+          <p><i class="fa-solid fa-location-dot"></i> Bologna, Italia</p>
+          <p><i class="fa-solid fa-mobile-button"></i> Telefono: +00 1515151515</p>
+          <p><i class="fa-solid fa-at"></i></span> E-mail: BO.Music.@mail.com</p>
+        </div>
+        <div class="col-md-8">
+          <div class="row">
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="name" name="name" placeholder="Il tuo nome" type="text" required>
+            </div>
+            <div class="col-sm-6 form-group">
+              <input class="form-control" id="email" name="email" placeholder="Email" type="Inserisci e-mail" required>
+            </div>
+          </div>
+          <textarea class="form-control" id="comments" name="comments" placeholder="Richiesta" rows="5"></textarea>
+          <br>
+          <div class="row">
+            <div class="col-md-4">
 
+              <button class="btn pull-none" type="submit">Invia</button>
+
+            </div>
+          </div>
+        </div>
+      </div>
+      <br>
+    </div>
+  </div>
+
+
+
+  <!-- Footer -->
+  <footer class="text-center">
+    <a class="up-arrow" href="#myPage" data-toggle="tooltip" title="TO TOP">
+      <span class="glyphicon glyphicon-chevron-up"></span>
+    </a><br><br>
+    <p>Le immagini provengono da <a href="https://pixabay.com/">Pixabay.com</a> e hanno <a href="https://creativecommons.it/chapterIT/index.php/license-your-work/">Licenze Creative Commons</a></p> 
+    <p>
+      <a href="https://www.facebook.com/" class="btn btn-dark btn-sm" target="_blank">
+        <i class="fa fa-2x fa-fw fa-facebook text-white"></i>
+      </a>
+      <a href="https://twitter.com/" class="btn btn-dark btn-sm" target="_blank">
+        <i class="fa fa-2x fa-fw fa-twitter text-white"></i>
+      </a>
+      <a href="https://www.linkedin.com/in/paola-ionfrida-6b13b7105/" class="btn btn-dark btn-sm" target="_blank">
+        <i class="fa fa-2x fa-fw fa-linkedin text-white"></i>
+      </a>
+      <a href="documentazione.html" class="btn btn-dark btn-sm" target="_blank" >
+        <i class="fa-solid fa-2x fa-book"></i>
+      </a>
+    </p>
   </footer>
-<script>
-$(document).ready(function(){
-  // Initialize Tooltip
-  $('[data-toggle="tooltip"]').tooltip(); 
-  
-  // Add smooth scrolling to all links in navbar + footer link
-  $(".navbar a, footer a[href='#myPage']").on('click', function(event) {
 
-    // Make sure this.hash has a value before overriding default behavior
-    if (this.hash !== "") {
 
-      // Prevent default anchor click behavior
-      event.preventDefault();
+  <script>
+    $(document).ready(function () {
+      // Initialize Tooltip
+      $('[data-toggle="tooltip"]').tooltip();
 
-      // Store hash
-      var hash = this.hash;
+      // Add smooth scrolling to all links in navbar + footer link
+      $(".navbar a, footer a[href='#myPage']").on('click', function (event) {
 
-      // Using jQuery's animate() method to add smooth page scroll
-      // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
-      $('html, body').animate({
-        scrollTop: $(hash).offset().top
-      }, 900, function(){
-   
-        // Add hash (#) to URL when done scrolling (default click behavior)
-        window.location.hash = hash;
+        // Make sure this.hash has a value before overriding default behavior
+        if (this.hash !== "") {
+
+          // Prevent default anchor click behavior
+          event.preventDefault();
+
+          // Store hash
+          var hash = this.hash;
+
+          // Using jQuery's animate() method to add smooth page scroll
+          // The optional number (900) specifies the number of milliseconds it takes to scroll to the specified area
+          $('html, body').animate({
+            scrollTop: $(hash).offset().top
+          }, 900, function () {
+
+            // Add hash (#) to URL when done scrolling (default click behavior)
+            window.location.hash = hash;
+          });
+        } // End if
       });
-    } // End if
-  });
-})
-</script>
+    })
+  </script>
 
 </body>
+
 </html>
