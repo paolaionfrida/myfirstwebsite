@@ -35,6 +35,30 @@ h4 {
 
 }
 
+a:link {
+    color: black;
+  text-decoration: underline;
+
+}
+
+a:visited {
+  color: purple;
+  text-decoration: none;
+
+}
+
+
+a:hover {
+  color: blue;
+  text-decoration: underline;
+
+}
+a:active {
+  color: blue;
+  text-decoration: underline;
+
+}
+
 .person {
   border: 10px solid transparent;
   margin-bottom: 25px;
